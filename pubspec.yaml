@@ -20,11 +20,17 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.7.0 <3.0.0"
 
+
+
 dependencies:
   flutter:
     sdk: flutter
   #untuk upload foto
   image_picker: ^0.6.6+5
+  #untuk sesi login
+  shared_preferences: ^0.5.8
+  #icon font awesome
+  font_awesome_flutter: ^8.5.0
 
   http:
   intl: ^0.16.1
@@ -50,10 +56,11 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/img/user.png
-    - assets/img/logo.png
+    - assets/img/user (1).png
+    - assets/img/logo1.jpg
     - assets/img/food.jpg
     - assets/img/placeholder.png
+    - assets/img/checklist.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
